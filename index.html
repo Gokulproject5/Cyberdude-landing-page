@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberDude Networks - Master Your Tech Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/cyberdude-logo-1.png" alt="CyberDude Networks" class="logo">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://www.youtube.com/@CyberDudeNetworks/featured" target="_blank" class="cta-btn">Get Started</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Master Technology Skills with Expert-Led Courses</h1>
+            <p>Join thousands of learners advancing their careers through hands-on cybersecurity, programming, and networking courses</p>
+            <div class="hero-buttons">
+                <a href="#courses" class="btn-primary">Browse Courses</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image"><img src="assets/download (1).png" alt=""></div>
+            <div class="about-content">
+                <h2>About <span>CyberDude Networks</span></h2>
+                <p>CyberDude Networks is a premier technology education platform dedicated to empowering individuals with cutting-edge skills in cybersecurity, programming, and networking.</p>
+                <p>Founded by industry experts with over 15 years of combined experience, we have trained over 10,000 students who have gone on to successful careers at top tech companies worldwide.</p>
+                <p>Our mission is to make high-quality tech education accessible, practical, and career-focused. We believe in learning by doing, which is why every course includes real-world projects and hands-on labs.</p>
+                <a href="#courses" class="btn-primary">Explore Our Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose <span>CyberDude?</span></h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/istockphoto-1282050925-612x612.jpg" alt="">
+                </div>
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals with years of real-world experience in cybersecurity and technology</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/laptop.jpg" alt="">
+                </div>
+                <h3>Hands-On Projects</h3>
+                <p>Build your portfolio with practical projects that showcase your skills to potential employers</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/certificate.jpg" alt=""></div>
+                <h3>Certification</h3>
+                <p>Earn industry-recognized certificates upon course completion to boost your career prospects</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/globle2.jpg" alt=""></div>
+                <h3>Lifetime Access</h3>
+                <p>Get unlimited access to course materials, updates, and community support forever</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/degree.jpg" alt=""></div>
+                <h3>Career Support</h3>
+                <p>Resume reviews, interview prep, and job placement assistance included with every course</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/lighting.jpg" alt=""></div>
+                <h3>Live Sessions</h3>
+                <p>Interactive live classes with Q&A sessions to clarify doubts in real-time</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+        <h2 class="section-title">Course <span>Curriculum</span></h2>
+        <div class="curriculum-container">
+            <div class="curriculum-tabs">
+               
+                <button class="tab-btn active" onclick="showCurriculum('fullstack')">Full Stack</button>
+                 <button class="tab-btn " onclick="showCurriculum('ethical')">Ethical Hacking</button>
+                <button class="tab-btn" onclick="showCurriculum('python')">Python</button>
+            </div>
+
+           
+            <div id="fullstack" class="curriculum-content active"">
+                <div class="module-card">
+                    <h4>Module 1: Frontend Basics</h4>
+                    <ul>
+                        <li>HTML5 & CSS3 Fundamentals</li>
+                        <li>JavaScript ES6+ Features</li>
+                        <li>Responsive Design Principles</li>
+                        <li>Git & Version Control</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 2: React Development</h4>
+                    <ul>
+                        <li>React Components & Props</li>
+                        <li>State Management with Hooks</li>
+                        <li>React Router & Navigation</li>
+                        <li>Redux for Complex Apps</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 3: Backend with Node.js</h4>
+                    <ul>
+                        <li>Node.js & Express Setup</li>
+                        <li>RESTful API Design</li>
+                        <li>Authentication & Security</li>
+                        <li>Database Integration</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 4: Full Stack Projects</h4>
+                    <ul>
+                        <li>MongoDB CRUD Operations</li>
+                        <li>Real-time Apps with Socket.io</li>
+                        <li>Deployment & DevOps</li>
+                        <li>Complete E-commerce Build</li>
+                    </ul>
+                </div>
+            </div>
+
+         <div id="ethical" class="curriculum-content" >
+                <div class="module-card">
+                    <h4>Module 1: Foundations</h4>
+                    <ul>
+                        <li>Introduction to Cybersecurity</li>
+                        <li>Networking Fundamentals</li>
+                        <li>Linux Command Line Mastery</li>
+                        <li>Setting Up Lab Environment</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 2: Reconnaissance</h4>
+                    <ul>
+                        <li>Information Gathering Techniques</li>
+                        <li>Footprinting & Scanning</li>
+                        <li>OSINT Tools & Methods</li>
+                        <li>Network Mapping</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 3: Exploitation</h4>
+                    <ul>
+                        <li>Vulnerability Assessment</li>
+                        <li>Metasploit Framework</li>
+                        <li>Web Application Testing</li>
+                        <li>Social Engineering Attacks</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 4: Advanced Topics</h4>
+                    <ul>
+                        <li>Wireless Network Security</li>
+                        <li>Cryptography Essentials</li>
+                        <li>Post-Exploitation Techniques</li>
+                        <li>Report Writing & Documentation</li>
+                    </ul>
+                </div>
+            </div>
+          
+
+            <div id="python" class="curriculum-content">
+                <div class="module-card">
+                    <h4>Module 1: Python Basics</h4>
+                    <ul>
+                        <li>Variables & Data Types</li>
+                        <li>Control Flow & Loops</li>
+                        <li>Functions & Modules</li>
+                        <li>File Handling</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 2: OOP Concepts</h4>
+                    <ul>
+                        <li>Classes & Objects</li>
+                        <li>Inheritance & Polymorphism</li>
+                        <li>Encapsulation Principles</li>
+                        <li>Exception Handling</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 3: Data Science Libraries</h4>
+                    <ul>
+                        <li>NumPy for Numerical Computing</li>
+                        <li>Pandas for Data Analysis</li>
+                        <li>Matplotlib & Seaborn</li>
+                        <li>Data Cleaning Techniques</li>
+                    </ul>
+                </div>
+                <div class="module-card">
+                    <h4>Module 4: Advanced Python</h4>
+                    <ul>
+                        <li>Web Scraping with BeautifulSoup</li>
+                        <li>API Development with Flask</li>
+                        <li>Automation Scripts</li>
+                        <li>Machine Learning Basics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <h2 class="section-title">Popular <span>Courses</span></h2>
+    <div class="course-grid">
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="assets/html.jpg" alt="">
+                </div>
+                <div class="course-content">
+                    <h3>HTML</h3>
+                    <p>A comprehensive course covering the five phases of Html.</p>
+                    <div class="course-meta">
+                        <span><i class="fa-solid fa-clock" style="color: #ff5900;"></i> 60 Hours</span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.9 Rating</span>
+                        <span><i class="fa-solid fa-graduation-cap" style="color: #2675fd;"></i> 8,500+ Students</span>
+                    </div>
+                   
+                    <a href="https://www.youtube.com/watch?v=aGHVddspRq0&feature=youtu.be" class="btn-primary" style="display: block; text-align: center;">Watch Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="assets/css.jpg" alt="">
+                </div>
+                <div class="course-content">
+                    <h3>CSS</h3>
+                    <p>Learn to build modern, scalable web applications using CSS</p>
+                    <div class="course-meta">
+                        <span><i class="fa-solid fa-clock" style="color: #ff5900;"></i> 80 Hours</span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.8 Rating</span>
+                        <span><i class="fa-solid fa-graduation-cap" style="color: #2675fd;"></i> 6,200+ Students</span>
+                    </div>
+                    
+                    <a href="https://www.youtube.com/watch?v=qv6ErWuquTY&feature=youtu.be" class="btn-primary" style="display: block; text-align: center;">Watch Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="assets/javascript.jpg" alt="">
+                </div>
+                <div class="course-content">
+                    <h3>JavaScript</h3>
+                    <p>Master JavaScript programming with a focus on Frontend  and Backend.</p>
+                    <div class="course-meta">
+                        <span><i class="fa-solid fa-clock" style="color: #ff5900;"></i> 50 Hours</span>
+                        <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.7 Rating</span>
+                        <span><i class="fa-solid fa-graduation-cap" style="color: #2675fd;"></i> 7,100+ Students</span>
+                    </div>
+                    
+                    <a href="https://www.youtube.com/watch?v=OuUqS8Po5ps&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa" class="btn-primary" style="display: block; text-align: center;">Watch Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>10K+</h3>
+                <p>Students Trained</p>
+            </div>
+            <div class="stat-item">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Corporate Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3>4.9</h3>
+                <p>Average Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="support" id="support">
+        <h2 class="section-title">Dedicated <span>Support</span></h2>
+        <div class="support-grid">
+            <div class="support-card">
+                <div class="support-icon">💬</div>
+                <h3>24/7 Live Chat</h3>
+                <p>Get instant answers to your technical and course-related questions anytime.</p>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">📞</div>
+                <h3>Personal Mentorship</h3>
+                <p>One-on-one sessions with instructors for personalized guidance and career advice.</p>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">🤝</div>
+                <h3>Community Forum</h3>
+                <p>Collaborate with peers, share knowledge, and solve challenges together in our exclusive community.</p>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">🔄</div>
+                <h3>Free Updates</h3>
+                <p>Access to all future course updates and new content at no extra cost, forever.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Ready to Start Your Tech Journey?</h2>
+                <p>Contact us today to find the perfect course for your career goals. We're here to help!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Address:</strong><br>
+                           #32, Second Street, Ramalingapuram, Kamaraj nagar, Avadi, Chennai - 71.
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email:</strong><br>
+                            hello@cyberdudenetworks.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone:</strong><br>
+                             (91) 9952913027, 8939738801
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 style="background-color: white; border-radius: 5px;"><img src="assets/cyberdude-logo-1.png" alt=""></h3>
+                <p>Empowering the next generation of tech leaders with practical, hands-on education.</p>
+                <div style="margin-top: 1rem; display: flex; gap: 1rem;">
+                    <a href="https://www.facebook.com/CdudeNetworks/" style="padding: 0; display: inline; color: var(--white);"><i class="fa-brands fa-facebook" style="color: #ff5900;"></i></a>
+                    <a href="https://www.instagram.com/cdudenetworks/#" style="padding: 0; display: inline; color: var(--white);"><i class="fa-brands fa-instagram" style="color: #ff5900;"></i></a>
+                    <a href="https://www.linkedin.com/company/cyberdude-networks" style="padding: 0; display: inline; color: var(--white);"><i class="fa-brands fa-linkedin" style="color: #ff4d00;"></i></a>
+                    <a href="https://www.youtube.com/user/CyberDudeNetworks" style="padding: 0; display: inline; color: var(--white);"><i class="fa-brands fa-youtube" style="color: #ff6600;"></i></a>
+                    <a href="https://x.com/cdudenetworks" style="padding: 0; display: inline; color: var(--white);"><i class="fa-brands fa-twitter" style="color: #ff4000;"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Our Courses</a></li>
+                    <li><a href="#features">Why Choose Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Popular Courses</h3>
+                <ul>
+                    <li><a href="#">Ethical Hacking</a></li>
+                    <li><a href="#">MERN Stack</a></li>
+                    <li><a href="#">Python for AI</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">DevOps</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: hello@cyberdudenetworks.com</p>
+                <p>Phone: (91) 9952913027</p>
+                <p>Address: #32, Second Street, Ramalingapuram, Kamaraj nagar, Avadi, Chennai - 71.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 CyberDude Networks. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
